@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Heading Font';
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/itc_avant_garde_gothic_bold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Body Font';
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/itc_avant_garde_gothic_ce_book.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter Font';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/inter_regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Heading Font', sans-serif;
+}
+
+p, div{
+    font-family: 'Body Font', sans-serif;
+}
+
